@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Menggunakan Bootstrap 5.3.3 CSS yang stabil -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#beranda">Beranda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#produk">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section beranda untuk link ke navbar -->
+    <section id="beranda">
+        <h2 class="greeting m-5 mb-0 pb-0 p-5 text-center">Halo, Terima kasih sudah mampir di WINSHOES!</h2>
+        <h3 class="description m-5 mt-0 pt-0 p-5 text-center"> Kami menjual berbagai jenis sepatu di sini untuk setiap
+            kebutuhan kamu, mulai dari sepatu formal, semi-formal, sepatu kasual, hingga sepatu hobi. Langsung aja cek
+            etalase di bawah banyak yang lagi diskon!!</h3>
+    </section>
+
+    <!-- section produk untuk link ke navbar-->
+    <section id="produk" class="py-5">
+        <h1 class="text-center mb-4">PRODUK KAMI</h1>
+        <div class="container">
+            <div class="row justify-content-center g-4">
+                <!-- card-1 -->
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                    <div class="card shadow-lg p-3 bg-body rounded w-100">
+                        <img src="assets/gambar-produk-1.jpg" class="card-img-top" alt="gambar produk" style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Monk Strap</h5>
+                            <p class="card-text">Sepatu yang menggunakan pengait atau sabuk gesper (buckle) sebagai pengganti tali cocok untuk suasana semi formal.</p>
+                            <a href="#beranda" class="btn btn-dark mt-auto">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-2 -->
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                    <div class="card shadow-lg p-3 bg-body rounded w-100">
+                        <img src="assets/gambar-produk-2.jpg" class="card-img-top" alt="gambar produk" style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Loafer</h5>
+                            <p class="card-text">Sepatu tanpa tali yang mudah dipakai (slip-on), ideal untuk gaya semi-formal atau kasual cerdas.</p>
+                            <a href="#beranda" class="btn btn-dark mt-auto">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-3 -->
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                    <div class="card shadow-lg p-3 bg-body rounded w-100">
+                        <img src="assets/gambar-produk-3.jpg" class="card-img-top" alt="gambar produk 3" style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Hiking Boots</h5>
+                            <p class="card-text">Sepatu bot kokoh dengan cengkeraman sol kuat untuk mendaki gunung atau jalur terjal.</p>
+                            <a href="#beranda" class="btn btn-dark mt-auto">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-4 -->
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                    <div class="card shadow-lg p-3 bg-body rounded w-100">
+                        <img src="assets/gambar-produk-4.jpg" class="card-img-top" alt="gambar produk 4" style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Derby</h5>
+                            <p class="card-text">Sepatu kulit klasik dengan tali tertutup (closed lacing), cocok untuk acara resmi atau jas kerja.</p>
+                            <a href="#beranda" class="btn btn-dark mt-auto">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-5 -->
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                    <div class="card shadow-lg p-3 bg-body rounded w-100">
+                        <img src="assets/gambar-produk-5.jpg" class="card-img-top" alt="gambar produk 5" style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Boat Shoes</h5>
+                            <p class="card-text">Sepatu berbahan kulit atau kanvas dengan tali tipis melingkar di sekelilingnya, dirancang untuk aktivitas perahu.</p>
+                            <a href="#beranda" class="btn btn-dark mt-auto">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card-6 -->
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center">
+                    <div class="card shadow-lg p-3 bg-body rounded w-100">
+                        <img src="assets/gambar-produk-6.jpg" class="card-img-top" alt="gambar produk 6" style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Sneakers</h5>
+                            <p class="card-text">Sepatu olahraga ringan atau berbahan kanvas/kulit yang biasa digunakan untuk aktivitas harian.</p>
+                            <a href="#beranda" class="btn btn-dark mt-auto">Beli Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section kontak untuk link ke navbar-->
+    <section id="kontak" class="py-5">
+        <h1 class="title text-center mb-4">KONTAK ADMIN</h1>
+        <div class="mb-3 col-md-6 mx-auto">
+            <label for="inputNama" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="inputNama" placeholder="ketik nama kamu di sini">
+        </div>
+        <div class="mb-3 col-md-6 mx-auto">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="ketik email kamu di sini">
+        </div>
+        <div class="mb-3 col-md-6 mx-auto">
+            <label for="inputPesan" class="form-label">Pesan</label>
+            <textarea class="form-control" id="inputPesan" rows="3" placeholder="ketik pesan kamu di sini"></textarea>
+        </div>
+        
+        <!-- button -->
+        <div class="col-md-6 mx-auto mt-4">
+            <button type="button" class="btn btn-dark w-100 py-2" data-bs-toggle="modal"
+                data-bs-target="#modalKonfirmasi">
+                Kirim Pesan
+            </button>
+        </div>
+    </section>
+
+    <!-- Modal Konfirmasi -->
+    <div class="modal fade" id="modalKonfirmasi" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="modalLabel">Konfirmasi Pengiriman</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Apakah kamu yakin mengirim pesan?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                        onclick="alert('Pesan berhasil dikirim! Terima kasih.')">
+                        Kirim
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
